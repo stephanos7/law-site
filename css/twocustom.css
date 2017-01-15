@@ -1,0 +1,346 @@
+/*===== NAVIGATION BAR ======*/
+
+.navbar-default {
+margin-bottom:0px;
+border: 0px;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    padding-top: 12px;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #0C4A7C;
+    font-family: "Amaranth";
+    font-size: 16px;
+}
+
+/*disabled hovering of brand--------------------
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+		opacity: 0.7;
+}
+-----------------------------------------------*/
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #0C4A7C;
+    font-size: 16px;
+    font-family: "Amaranth";
+}
+
+/* when hovering over nav items*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #0C4A7C;
+    opacity: 0.9;
+    color: #ffffff;
+}
+
+/* appearance of active tab on the menu*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  
+}
+/*====when opening the burger dropdown=========*/
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #0C4A7C;
+    background-color: #ffffff;
+		opacity: 0.4;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar .navbar-toggle {
+    border-color: #0C4A7C;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #0C4A7C;
+
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0C4A7C;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+        text-align: right;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+				opacity: 0.7;
+
+    }
+}
+
+/*==== GENERAL STYLES ===*/
+
+/*page margins*/
+.margins {
+    margin-left: 15px;
+    margin-right: 18px;
+}
+
+h2 {
+    margin-bottom: 70px;
+    font-family: "Amaranth";
+}
+
+h3 {
+    margin-bottom: 70px;
+    font-family: "lato";
+    font-size: 20px;
+}
+
+h4 {
+    font-family: "lato";
+    line-height: 24px;
+}
+
+h5{
+       
+    font-family: "lato";
+    line-height: 24px; 
+}
+
+h6 {
+    font-family: "amaranth";
+    font-size:22px;
+
+}
+
+hr {
+    width: 40%;
+    opacity: 0.6;
+}
+
+p {
+    font-family: "lora";
+    font-size: 18px;
+}
+
+.just {
+    text-align: justify;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left:
+}
+
+.centre {
+    text-align: center;
+}
+
+.bmarg {
+    margin-bottom: 100px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.lightgrey {
+    color: #e8e8e8;
+}
+
+
+.blue {
+    color: #0C4A7C;
+}
+
+.lightblue{
+    color: #71ADC7;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+.screencent{
+    position: absolute;
+    left: 50%;
+    right: -50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+a:link { 
+    text-decoration: none;
+}
+
+.pagelink {
+    
+    font-family: "amaranth";
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+/*==== MAIN JUMBOTRON IMAGE ===*/
+
+#mainjumbo {
+    background: url("../img/Sailing_Edge_Overlay_HD.png") no-repeat center center;
+    height: 1007px;
+}
+
+#moto1{
+    
+    margin-left: 30vw;
+    margin-top: 300px;
+    font-size: 33px;
+    font-family: "lora";
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+/*==== PRACTICE SECTION =====*/
+
+#practicejumbo {
+    overflow: visible;
+    margin-top: -150px;
+    background: rgba(255,255,255,0);
+}
+
+/*==== SERVICES SECTION =====*/
+
+#servjumbo {
+    height: 2000px;
+    background: url("../img/services background_5.png") no-repeat center center;
+    margin-bottom: -630px;
+}
+
+#servtitle {
+    margin-top: 290px;
+}
+
+#servdesc {
+    margin-top: 65px;
+}
+
+
+/*==== LAWYERS SECTION =====*/
+
+#lawjumbo {
+    
+        overflow:hidden;
+        background: rgba(255,255,255,0); 
+}
+
+#lawbutton {
+    margin-top: -50px;
+}
+
+/*==== CAREERS SECTION =====*/
+    
+#carjumbo {
+        background: rgba(255,255,255,1);
+      
+}    
+
+#cartitle{
+    color: #0C4A7C;
+}
+
+
+.btn-lg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*==== CONTACT SECTION =====*/
+
+#conjumbo {
+    background: url("../img/testcon.png") no-repeat center center;
+    height: 1007px;
+    margin-bottom: 0px;
+}
+
+
+
+#formtitle {
+    margin-top: 80px;
+}
+
+#officetitle{
+    margin-top: 80px;   
+}
+
+.form-control {
+    background: #ffffff; 
+    opacity: 0.5;
+}
+
+.opatext {
+    opacity: 0.9;
+}
+
+
+
+
+/*==== FOOTER =============*/
+
+.btn-social-icon {
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#footer {
+    background: #010c1b;
+    height: 280px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+/*==== ALL MEDIA QUERIES ====*/
+
+/* DISABLED: 
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  #servtitle { color: #0C4A7C; } 
+
+*/
+    
+@media screen and (max-width:992px) {
+  #contactformonly { display:none; } 
+
+@media screen and (max-width:992px) {
+  #moto1 { font-size:26px; } 
+
